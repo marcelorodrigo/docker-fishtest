@@ -5,6 +5,7 @@ Docker image to run and contribute with FishTest (https://github.com/glinscott/f
 
 [![Docker Stars](https://img.shields.io/docker/stars/marcelorodrigo/fishtest.svg?maxAge=2592000)]()
 [![Docker Pulls](https://img.shields.io/docker/pulls/marcelorodrigo/fishtest.svg?maxAge=2592000)]()
+[![](https://images.microbadger.com/badges/image/marcelorodrigo/fishtest.svg)](http://microbadger.com/images/marcelorodrigo/fishtest)
 [![Let's play Chess](https://img.shields.io/badge/let's%20play-chess-orange.svg)]()
 
 Running FishTest
