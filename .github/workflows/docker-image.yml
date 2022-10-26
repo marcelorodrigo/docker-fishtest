@@ -1,3 +1,4 @@
+ lines (32 sloc) 776 Bytes
 name: Docker Image CI
 
 on:
@@ -31,5 +32,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: |
-            laurentaerens/fishtest:latest
+          tags: marcelorodrigo/fishtest:latest
