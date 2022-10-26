@@ -33,4 +33,3 @@ jobs:
           push: true
           tags: |
             laurentaerens/fishtest:latest
-            laurentaerens/fishtest:$(Build.BuildId)
