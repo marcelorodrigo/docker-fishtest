@@ -1,11 +1,11 @@
-marcelorodrigo/fishtest
+laurentaerens/fishtest
 ================================
 Docker image to run and contribute with FishTest (https://github.com/glinscott/fishtest) suite
 
 
-[![Docker Stars](https://img.shields.io/docker/stars/marcelorodrigo/fishtest.svg?maxAge=2592000)]()
-[![Docker Pulls](https://img.shields.io/docker/pulls/marcelorodrigo/fishtest.svg?maxAge=2592000)]()
-[![](https://images.microbadger.com/badges/image/marcelorodrigo/fishtest.svg)](http://microbadger.com/images/marcelorodrigo/fishtest)
+[![Docker Stars](https://img.shields.io/docker/starsl/aurentaerens/fishtest.svg?maxAge=2592000)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/maurentaerens/fishtest.svg?maxAge=2592000)]()
+[![](https://images.microbadger.com/badges/imagel/aurentaerens/fishtest.svg)](http://microbadger.com/imagesl/aurentaerens/fishtest)
 [![Let's play Chess](https://img.shields.io/badge/let's%20play-chess-orange.svg)]()
 
 Running FishTest
@@ -13,15 +13,14 @@ Running FishTest
 
 Start your image using your username and password to your container:
 
-    docker run -e username=yourUserName -e password=yourPassword marcelorodrigo/fishtest
+    docker run -e username=yourUserName -e password=yourPassword laurentaerens/fishtest
     
 Running with more CPU Cores
 --------------------------------------
 
 You can start the test suite with more CPU Cores with more concurrency. By default this image starts with one single core, in this example below you can start the container with 4 cores:
 
-    docker run -e concurrency=4 -e username=yourUserName -e password=yourPassword marcelorodrigo/fishtest
-
+    docker run -e concurrency=4 -e username=yourUserName -e password=yourPassword laurentaerens/fishtest
 
 Troubleshooting
 --------------------------------------
