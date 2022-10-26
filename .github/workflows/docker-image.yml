@@ -31,4 +31,6 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: marcelorodrigo/fishtest:latest
+          tags: |
+          laurentaerens/fishtest:latest
+          laurentaerens/fishtest:$(Build.BuildId)
