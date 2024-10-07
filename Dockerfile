@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
-ENV concurrency 1
-ENV username yourusername
-ENV password yourpassword
+ENV concurrency=1
+ENV username=yourusername
+ENV password=yourpassword
 WORKDIR /
 RUN apt update && \
     apt install --yes wget python3 python3-pip python3-requests git build-essential && \
