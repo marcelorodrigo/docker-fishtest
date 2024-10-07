@@ -1,7 +1,6 @@
 FROM ubuntu:22.04
-ENV concurrency=1
-ENV username=yourusername
-ENV password=yourpassword
+RUN source /run/secrets/fishtest
+RUN echo "Running with concurrency=$concurrency"
 WORKDIR /
 RUN apt update && \
     apt install --yes wget python3 python3-pip python3-requests git build-essential && \
