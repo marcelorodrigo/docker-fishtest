@@ -17,17 +17,20 @@ Features
 Running FishTest
 --------------------------------------
 
-Start your image using your username and password to your container:
+## Secrets
+You must configure concurrency, username and password using Docker Secrets.
+This is a safer way to store your credentials:
 
-    docker run -e username=yourUserName -e password=yourPassword marcelorodrigo/fishtest
-    
+```
+docker secret create fishtest \
+    "$(echo -e "concurrency=1\nusername=yourusername\npassword=yourpassword")"
+```
+
 Running with more CPU Cores
 --------------------------------------
 
 You can start the test suite with more CPU Cores with more concurrency. By default this image starts with one single
-core, in this example below you can start the container with 4 cores:
-
-    docker run -e concurrency=4 -e username=yourUserName -e password=yourPassword marcelorodrigo/fishtest
+core.
 
 
 Troubleshooting
