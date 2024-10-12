@@ -10,7 +10,7 @@ Docker image to run and contribute with [FishTest](https://github.com/glinscott/
 
 Features
 ---
-- Based on Ubuntu 22.04 LTS
+- Based on Alpine 3.20
 - Updates on the fly (every time you run your docker container, you get the latest code from fishtest repository)
 - Configurable regarding concurrency and credentials
 
